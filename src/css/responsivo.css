@@ -1,0 +1,33 @@
+@media (max-width: 1120px){
+    .canecalho .logo{
+        max-width: 190px;
+    }
+    .sel-de-pers{
+        flex-direction: column-reverse;
+        max-width: 430px;
+        margin: 0 auto;
+    }
+    .sel-de-pers .section-personagem{
+        margin-top: 37px;
+    }
+    .sel-de-pers .section-personagem .title{
+        font-size: 15px;
+        margin-top: 15px;
+    }
+    .section-personagem .lista{
+        gap: 9px;
+    }
+    .sel-de-pers .personagem img{
+        width: 80px;
+    }
+    .personagem-selecionado .grande{
+        width: 250px;
+        height: 350;
+    }
+    .personagem-selecionado .descri{
+        width: 80%;
+        font-size: 16px;
+        margin: 20px auto;
+        margin-bottom: 20px;
+    }
+}

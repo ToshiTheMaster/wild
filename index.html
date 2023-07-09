@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto vs1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="./src/css/reset.css">
+<link rel="stylesheet" href="./src/css/style.css">
+<link rel="stylesheet" href="./src/css/responsivo.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <img class="logo" src="src/images/images/OIP-removebg-preview.png">
+    </header>
+
+    <main class="sel-de-pers">
+        <section class="section-personagem">
+           <h1 class="titulo">Selecione um campeão </h1>
+
+           <ul class="lista">
+            <li class="personagem" id="jhin" data-name="Jhin" 
+            data-description="Jhin é um meticuloso psicopata criminoso que acredita que o assassinato é uma arte. Outrora um prisioneiro ioniano, mas libertado por membros obscuros do conselho regimental de Ionia, o assassino serial agora trabalha como assassino de seu conluio">
+                <img src="./src/images/images/card-jhin.jpg" alt="Jhin">
+            </li>
+            <li class="personagem" id="kyle" data-name="Kyle"
+            data-description="Nascida para ser Aspect Targonian no auge das Rune Wars, Kayle honrou o legado da sua mãe lutando pela justiça nas asas da chama divina. Ela e a sua irmã gémea Morgana foram as protetoras de Demacia por muitos anos - até que Kayle ficou desiludida com os fracassos repetidos dos mortais, e abandonou este reino por completo.">
+                <img src="./src/images/images/card-kyle.jpg" alt="Kyle">
+            </li>
+            <li class="personagem" id="akli" data-name="Akali"
+            data-description="Abandonando a Ordem Kinkou e seu título de Punho das Sombras, Akali agora ataca sozinha, pronta para ser a arma mortal de que seu povo precisa. Embora mantenha tudo o que aprendeu com seu mestre Shen, ela se comprometeu a defender Ionia de seus inimigos, um assassinato de cada vez">
+                <img src="./src/images/images/card-akali.jpg" alt="Akali">
+            </li>
+            <li class="personagem selecionado" id="yasuo" data-name="Yasuo"
+            data-description="Yasuo significa “honesto” ou “pacífico” em japonês, um nome escolhido para, supostamente, ajudar o personagem a ser mais calmo, já que sua natureza sempre foi mais explosiva e selvagem.">
+                <img src="./src/images/images/card-yasuo.jpg" alt="Yasuo">
+            </li>
+            <li class="personagem" id="yone" data-name="Yone"
+            data-description="Em vida, Yone seguia um rigoroso código de dever e honra. Ainda criança, motivado pela morte de seu pai, seu amor pela família o levou a assumir o papel de protetor. Sempre paciente e disciplinado, Yone era o oposto de seu meio-irmão Yasuo, que era impetuoso e imprudente.">
+                <img src="./src/images/images/card-yone.jpg" alt="Yone">
+            </li>
+            <li class="personagem" id="ekko" data-name="Ekko"
+            data-description="Um prodígio das violentas ruas de Zaun, Ekko manipula o tempo para reverter qualquer situação a seu favor. Usando sua própria invenção, o Revo-Z, ele explora as possíveis bifurcações da realidade para criar o momento perfeito. Embora valorize muito sua liberdade, quando algo ameaça seus amigos, ele não mede esforços para defendê-los">
+                <img src="./src/images/images/card-ekko.jpg" alt="Ekko">
+            </li>
+            <li class="personagem" id="diana" data-name="Diana"
+            data-description="Com uma brilhante armadura da cor da neve invernal na madrugada e empunhando sua espada lunar crescente, Diana é a personificação do poder da lua prateada. Dotada com a essência de um Aspecto vindo de além do cume de Targon, Diana já não é mais totalmente humana e luta para entender seu poder e propósito neste mundo.">
+                <img src="./src/images/images/card-diana.jpg" alt="Diana">
+            </li>
+            <li class="personagem" id="vayne" data-name="Vayne"
+            data-description="auna Vayne é uma caçadora de monstros mortal e implacável que dedicou sua vida a encontrar e matar o demônio que assassinou sua família. Armada com bestas de pulso e um coração cheio de vingança, Vayne só fica verdadeiramente feliz quando está matando criações ou praticantes das artes obscuras">
+                <img src="./src/images/images/card-vayne.jpg" alt="Vayne">
+            </li>
+           </ul>
+        </section>
+
+        <section class="personagem-selecionado">
+            <img class="grande" src="./src/images/images/card-yasuo.png" alt="Personagem Selecionado">
+        
+            <div class="info">
+                <h2 class="name" id="name">Yasuo</h2>
+                <p class="descri" id="descri">Yasuo significa “honesto” ou “pacífico” em japonês, um nome escolhido para, supostamente, ajudar o personagem a ser mais calmo, já que sua natureza sempre foi mais explosiva e selvagem.</p>
+            </div> 
+        
+        </section>
+
+    </main>
+     <script src="./src/js/index.js"></script>
+    
+</body>
+</html>
